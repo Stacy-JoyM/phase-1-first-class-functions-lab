@@ -1,4 +1,14 @@
 require ( './helpers.js' );
+//importing functions
+const {
+  returnFirstTwoDrivers,
+  returnLastTwoDrivers,
+  selectingDrivers,
+  createFareMultiplier,
+  fareDoubler,
+  fareTripler,
+  selectDifferentDrivers
+} = require('../index.js'); 
 
 describe('index.js', function () {
   const drivers = ['Antonia', 'Nuru', 'Amari', 'Mo'];
